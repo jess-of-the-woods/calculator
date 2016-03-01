@@ -1,2 +1,4 @@
-js file
-needs to be linked from html..
+
+var run1 = function(){
+  document.calc.result.value = "1";
+}
