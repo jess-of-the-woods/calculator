@@ -4,28 +4,31 @@
     <title>Calculator</title>
     <meta charset="UTF-8">
     <link href="styles/styles.css" rel="stylesheet" type="text/css">
-    <script src="scripts/script.js" type="text/javascript"></script>
+    <script src="scripts/jquery.min.js" type="text/javascript"></script>
   </head>
   <body>
     <form name="calc">
-    <input name="result">
-<!--       <input type="text" name="result" value=""><br>
- -->      <input type="button" value="1" name="1" onclick="run1()">
+      <input id="result" name="result" value=""><br>
+      <input type="button" value="1" name="1" onclick="run1()">
       <input type="button" value="2" name="2" onclick="run2()">
       <input type="button" value="3" name="3" onclick="run3()">
       <br>
       <input type="button" value="4" name="4" onclick="run4()">
       <input type="button" value="5" name="5" onclick="run5()">
       <input type="button" value="6" name="6" onclick="run6()">
+      <br>
       <input type="button" value="7" name="7" onclick="run7()">
       <input type="button" value="8" name="8" onclick="run8()">
       <input type="button" value="9" name="9" onclick="run9()">
+      <br>
       <input type="button" value="*" name="*" onclick="runTimes()">
       <input type="button" value="/" name="/" onclick="runDivide()">      
       <input type="button" value="+" name="+" onclick="runAdd()">
-      <input type="button" value="-" name="-" onclick="runSubtract()">
-
-      <input type="button" value="=" name="=" onclick="evaluate()">
+      <br>
+      <input type="button" value="-" name="-" onClick="runSubtract()">
+      <input type="button" value="=" name="=" onClick="runEvaluate()">
+      <input type="button" value="C" name="C" onClick="runClear()">
     </form>
+    <script src="scripts/script.js" type="text/javascript"></script>
   </body>
 </html>

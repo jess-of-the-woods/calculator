@@ -1,4 +1,4 @@
-input[type=text] {
+input[name=result] {
   width: 250px;
   padding: 3px;
   margin: 5px;
