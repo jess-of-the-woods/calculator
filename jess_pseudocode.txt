@@ -1,0 +1,19 @@
+in index.html:
+set up form with name 'calc'. 
+set up inputs in form with type button, value & name = (number), onClick listener calls function in script.js
+set up inputs in form with type button, value & name = (operator), onClick listener calls function in script.js
+set up inputs in form with type button, value & name = clear, onClick listener calls function in script.js
+
+in script.js
+declare number functions
+selecters for 'document.calc.result.value' (calculator screen) for each number button, inputs (adds, rather than replaces old one) number to screen onClick. (document.calc.result.value += "number")
+
+declare functions for operator buttons. inputs operator symbol to calculator screen. (document.calc.result.value += "operator symbol")
+
+declare function for clear screen. inputs "" to screen. (document.calc.result.value += "")
+
+declare runEvaluate function. 
+declare var evalu within function = the eval(uation) of string on calculator screen: (document.calc.result.value). 
+set calculator screen == to evalu (document.calc.result.value = evalu)
+
+-Jess

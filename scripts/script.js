@@ -40,19 +40,7 @@ var runSubtract = function () {
 var runClear = function () {
   document.calc.result.value = "";
 }
-   // var runEquals = function() {
-   //   document.calc.result.value.innerHTML = eval(document.calc.result.value);
-   //   console.log(eval());
-   // }
-
 var runEvaluate = function () {
   var evalu = eval(document.calc.result.value)
   document.calc.result.value = evalu
 }
-
-/*
-jQuery globalEval syntax:
-function test() {
-  jQuery.globalEval( "var newVar = true;" )
-}
-test();*/
